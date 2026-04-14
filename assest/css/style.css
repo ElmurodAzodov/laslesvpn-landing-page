@@ -5,10 +5,48 @@
   border: none;
   outline: none;
   font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: #000;
 }
 
 nav {
   width: 1280px;
   height: 76px;
-  
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > .logo {
+  width: 129px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > .menu {
+  width: 440px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-buttons {
+  width: 240px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-buttons > .sign-up {
+  width: 150px;
+  height: 44px;
+  border-radius: 40px;
+  border: 2px solid #f53855;
+  padding: 8px 32px;
+  text-align: center;
 }
