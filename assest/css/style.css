@@ -50,3 +50,42 @@ nav > .menu {
 .auth-buttons > .sign-up {
   border: 2px solid #f53855;
 }
+
+/* about */
+
+.about {
+  width: 1280px;
+  height: 478px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-left,
+.about-right,
+.about-right > img {
+  width: 560px;
+  height: 350px;
+}
+
+.about-left > h1 {
+  font-size: 50px;
+}
+
+.about-left > button {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f53855;
+  color: #fff;
+  border-radius: 10px;
+}
