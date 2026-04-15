@@ -89,3 +89,35 @@ nav > .menu {
   color: #fff;
   border-radius: 10px;
 }
+
+/* status-container */
+.status-container {
+  width: 1152px;
+  height: 176px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 1px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status-container > .stat-box {
+  border-left: 2px solid rgb(0, 0, 0, 0.1);
+  border-right: 2px solid rgb(0, 0, 0, 0.1);
+  width: 384px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-container .box-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-container .box-in img {
+  padding-right: 20px;
+}
