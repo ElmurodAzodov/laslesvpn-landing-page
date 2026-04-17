@@ -8,7 +8,7 @@ This is a modern and responsive landing page for a VPN service built using HTML 
 
 ## 📸 Screenshots
 
-![Preview](./laslesvpn-screenshot.png)
+![Preview](./assets/img/laslesvpn-screenshot.png)
 
 ## ✨ Features
 
