@@ -165,10 +165,20 @@ nav > .menu {
   height: 2862px;
   margin: auto;
   background-color: #f9f9f9;
+  padding: 56px 0px;
 }
 
 .pricing li {
   list-style: none;
+}
+
+.pricing h2,
+p {
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 35px;
 }
 
 .card > ul > li > img {
@@ -210,4 +220,11 @@ nav > .menu {
   color: #f53855;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.pricing-container > .card:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+  border: 1px solid #f53855;
 }
