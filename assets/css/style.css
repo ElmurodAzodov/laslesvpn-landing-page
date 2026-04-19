@@ -142,6 +142,10 @@ nav > .menu {
   align-items: center;
 }
 
+.features-content h2 {
+  font-size: 35px;
+}
+
 .features-image,
 .features-image img {
   width: 528px;
@@ -184,8 +188,8 @@ nav > .menu {
   padding: 5px;
 }
 
-.pricing h2,
-p {
+.pricing > h2,
+.pricing > p {
   text-align: center;
 }
 
