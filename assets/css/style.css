@@ -8,11 +8,20 @@
   text-decoration: none;
   color: #000;
 }
+header {
+  margin-top: 16px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(255, 255, 255, 0.97);
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
+}
 
 nav {
   width: 1280px;
   height: 76px;
-  margin: 16px auto;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -157,6 +166,8 @@ nav > .menu {
   margin-right: 10px;
 }
 
+/* section */
+
 /* pricing */
 
 .section {
@@ -226,8 +237,50 @@ p {
 }
 
 .pricing-container > .card:hover {
-  cursor: pointer;
   transition: 0.5s;
   transform: scale(1.1);
   border: 1px solid #f53855;
+}
+
+/* map-content */
+
+.map-content {
+  width: 1280px;
+  height: 857px;
+  margin: auto;
+}
+
+.map-content-top {
+  width: 1152px;
+  height: 144px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.huge-global {
+  width: 1152px;
+  height: 713px;
+  padding: 48px 32px;
+  margin: auto;
+}
+
+.huge-global > img {
+  width: 1088px;
+  height: 553px;
+}
+
+.map-content-top h2 {
+  font-size: 35px;
+}
+
+.sponsor {
+  width: 1152px;
+  height: 64px;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
