@@ -181,6 +181,7 @@ nav > .menu {
 
 .pricing li {
   list-style: none;
+  padding: 5px;
 }
 
 .pricing h2,
@@ -194,6 +195,11 @@ p {
 
 .card > ul > li > img {
   width: 12px;
+  margin-right: 10px;
+}
+
+.card ul {
+  height: 190px;
 }
 
 .pricing .pricing-container {
@@ -210,7 +216,7 @@ p {
   height: 760px;
   border: 2px solid #dddddd;
   border-radius: 12px;
-  padding: 16px 70px;
+  padding: 16px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
