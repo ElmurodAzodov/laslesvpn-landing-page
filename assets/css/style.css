@@ -256,8 +256,8 @@ nav > .menu {
 
 .map-content {
   width: 1280px;
-  height: 857px;
-  margin: auto;
+  height: 1000px;
+  margin: 64px auto;
 }
 
 .map-content-top {
@@ -289,8 +289,31 @@ nav > .menu {
 .sponsor {
   width: 1152px;
   height: 64px;
-  margin: 16px auto;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* happy-customer */
+
+.happy-customer {
+  width: 1152px;
+  height: 619px;
+  margin: 0px auto;
+}
+
+.scroll-content {
+  width: 1152px;
+  height: 260px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scroll-content .scrolled {
+  width: 360px;
+  height: 259px;
+  border: 2px solid #dddddd;
+  border-radius: 12px;
 }
